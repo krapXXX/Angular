@@ -1,0 +1,57 @@
+html, body {
+  margin: -1em;
+  padding: 0;
+}
+
+
+header {
+    background-color:  #883298;
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  align-items: center;
+  padding: 1em;
+  padding-left:4em;
+  padding-right:4em;
+}
+
+.logo {
+    color: white;
+  font-size: 1.8em;
+  font-weight: bold;
+
+}
+.navBox {
+  display: flex;
+  justify-content: center; 
+  align-items: center;    
+  height: 100%;
+}
+
+.nav {
+  display: flex;
+  gap: 5em;
+}
+
+.nav a {
+  color:white;
+  text-decoration: none;
+  font-size: 1.1em;
+  border: 1px solid transparent;
+   transition: 
+    transform 0.3s;
+}
+
+.nav a:hover {
+  transform: scale(1.05); 
+}
+
+.burger {
+  color:white;
+
+    display: flex;;
+  background: none;
+  border: none;
+  font-size: 1.8em;
+  cursor: pointer;
+   justify-content: flex-end;
+}
